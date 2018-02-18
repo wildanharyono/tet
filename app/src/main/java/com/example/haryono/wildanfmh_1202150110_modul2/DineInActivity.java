@@ -46,6 +46,10 @@ public class DineInActivity extends AppCompatActivity implements
         if (editText != null) {
             String showString = (editText.getText().toString() + " memilih " + mSpinnerLabel);
             Toast.makeText(this, showString, Toast.LENGTH_SHORT).show();
+
+            Intent a = new Intent(DineInActivity.this, MenuActivity.class);
+            startActivity(a);
+
         }
     }
     @Override
@@ -53,11 +57,6 @@ public class DineInActivity extends AppCompatActivity implements
             i, long l) {
         mSpinnerLabel = adapterView.getItemAtPosition(i).toString();
         showText(view);
-    }
-    public void onClick(View view){
-        Intent a = new Intent(DineInActivity.this, MenuActivity.class);
-        startActivity(a);
-
     }
 
     @Override
