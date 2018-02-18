@@ -17,38 +17,23 @@ import com.bumptech.glide.Glide;
  */
 public class DetailActivity extends AppCompatActivity {
 
-
-    /**
-     * Initializes the activity, filling in the data from the Intent.
-     * @param savedInstanceState Contains information about the saved state of the activity
-     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        //Initialize the views
-        TextView sportsTitle = (TextView)findViewById(R.id.titleDetail);
-        ImageView sportsImage = (ImageView)findViewById(R.id.sportsImageDetail);
+        //melakukan inisiasi pada views
+        TextView menuTitle = (TextView)findViewById(R.id.item_title_detail);
+        TextView menuPrice = (TextView)findViewById(R.id.item_price_detail);
+        TextView menuInfo = (TextView)findViewById(R.id.info_detail);
+        ImageView menuImage = (ImageView)findViewById(R.id.menuImages_detail);
 
-        //Get the drawable
-        Drawable drawable = ContextCompat.getDrawable
-                (this,getIntent().getIntExtra(Sport.IMAGE_KEY, 0));
+        //mengisi views dengan data, dari intent
+        menuTitle.setText(getIntent().getStringExtra("title"));
+        menuPrice.setText(getIntent().getStringExtra("price"));
+        menuInfo.setText(getIntent().getStringExtra("info"));
 
-        //Create a placeholder gray scrim while the image loads
-        GradientDrawable gradientDrawable = new GradientDrawable();
-        gradientDrawable.setColor(Color.GRAY);
-
-        //Make it the same size as the image
-        if(drawable!=null) {
-            gradientDrawable.setSize(drawable.getIntrinsicWidth(), drawable.getIntrinsicHeight());
-        }
-
-        //Set the text from the Intent extra
-        sportsTitle.setText(getIntent().getStringExtra(Sport.TITLE_KEY));
-
-        //Load the image using the glide library and the Intent extra
-        Glide.with(this).load(getIntent().getIntExtra(Sport.IMAGE_KEY,0))
-                .placeholder(gradientDrawable).into(sportsImage);
+        Glide.with(this).load(getIntent().getIntExtra("image_",0))
+                .into(menuImage);
     }
 }

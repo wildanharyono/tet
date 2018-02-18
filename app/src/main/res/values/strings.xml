@@ -18,50 +18,48 @@
     <string name="date_picker">datePicker</string>
     <string name="time_picker">timePicker</string>
 
-    <string name="filler_text">
-        Irisan sosis sapi, daging sapi cincang, burger sapi, sosis ayam
-        Daging ayam dan sapi asap, daging sapi cincang, burger sapi, jamur, paprika merah dan paprika hijau
-        Irisan daging ikan tuna, butiran jagung, saus mayonnaise
-        Irisan daging ikan tuna, butiran jagung, saus mayonnaise
-        Sosis sapi Frankfurter potongan daging sapi, honey BBQ, mustard, keju Mozarella.
-        Pepperoni sapi, daging sapi cincang, jamur
-       100% keju mozzarella dengan saus pizza kaya rasa
-    </string>
-
-    <string-array name="sports_titles">
+    <string-array name="menu_titles">
         <item>Meat Lovers</item>
         <item>Super Supreme</item>
         <item>Tuna Melt</item>
         <item>Frankfurter BBQ</item>
         <item>American Favourite</item>
         <item>Deluxe Cheese</item>
+        <item>Cheeseburger Pizza</item>
+        <item>Chees Pizza</item>
     </string-array>
 
-    <string-array name="sports_info">
+    <string-array name="menu_info">
         <item>Irisan sosis sapi, daging sapi cincang, burger sapi, sosis ayam</item>
         <item>Daging ayam dan sapi asap, daging sapi cincang, burger sapi, jamur, paprika merah dan paprika hijau</item>
         <item>Irisan daging ikan tuna, butiran jagung, saus mayonnaise</item>
         <item>Sosis sapi Frankfurter, potongan daging sapi, honey BBQ, mustard, keju Mozarella.</item>
         <item>Pepperoni sapi, daging sapi cincang, jamur</item>
         <item>100% keju mozzarella dengan saus pizza kaya rasa</item>
+        <item>Daging sapi cincang, daging sapi dan daging ayam asli yang berbumbu, keju cheddar, mozzarella, bawang bombay, tomat, saus tomat, mustard dan mayonnaise.</item>
+        <item>Daging kambing cincang, daging sapi dan daging ayam asli yang berbumbu, keju cheddar, mozzarella, bawang bombay, tomat, saus tomat, mustard dan mayonnaise.</item>
     </string-array>
 
-    <string-array name="sports_price">
+    <string-array name="menu_price">
         <item>Rp 60.000</item>
         <item>Rp 90.000</item>
         <item>Rp 70.000</item>
         <item>Rp 80.000</item>
         <item>Rp 65.000</item>
         <item>Rp 75.000</item>
+        <item>Rp 70.000</item>
+        <item>Rp 80.000</item>
     </string-array>
 
-    <array name="sports_images">
+    <array name="menu_images">
         <item>@drawable/img_1</item>
         <item>@drawable/img_2</item>
         <item>@drawable/img_3</item>
         <item>@drawable/img_4</item>
         <item>@drawable/img_5</item>
         <item>@drawable/img_6</item>
+        <item>@drawable/img_7</item>
+        <item>@drawable/img_8</item>
     </array>
     <string name="sports_info_placeholder">Here is some news</string>
     <string name="title_placeholder">Title</string>
