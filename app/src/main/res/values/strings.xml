@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">wildanfmh_1202150110_modul2</string>
+    <string name="hint_phonenumber">Enter phone numbe</string>
+    <string-array name="labels_array">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+    </string-array>
+    <string name="show_button">Show</string>
+    <string name="phonenumber_label">Phone Number:</string>
+    <string name="nothing_entered">Nothing entered.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date_button">Date</string>
+    <string name="time_button">Time</string>
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+
+    <string name="filler_text">
+        Irisan sosis sapi, daging sapi cincang, burger sapi, sosis ayam
+        Daging ayam dan sapi asap, daging sapi cincang, burger sapi, jamur, paprika merah dan paprika hijau
+        Irisan daging ikan tuna, butiran jagung, saus mayonnaise
+        Irisan daging ikan tuna, butiran jagung, saus mayonnaise
+        Sosis sapi Frankfurter potongan daging sapi, honey BBQ, mustard, keju Mozarella.
+        Pepperoni sapi, daging sapi cincang, jamur
+       100% keju mozzarella dengan saus pizza kaya rasa
+    </string>
+
+    <string-array name="sports_titles">
+        <item>Meat Lovers</item>
+        <item>Super Supreme</item>
+        <item>Tuna Melt</item>
+        <item>Frankfurter BBQ</item>
+        <item>American Favourite</item>
+        <item>Deluxe Cheese</item>
+    </string-array>
+
+    <string-array name="sports_info">
+        <item>Irisan sosis sapi, daging sapi cincang, burger sapi, sosis ayam</item>
+        <item>Daging ayam dan sapi asap, daging sapi cincang, burger sapi, jamur, paprika merah dan paprika hijau</item>
+        <item>Irisan daging ikan tuna, butiran jagung, saus mayonnaise</item>
+        <item>Sosis sapi Frankfurter, potongan daging sapi, honey BBQ, mustard, keju Mozarella.</item>
+        <item>Pepperoni sapi, daging sapi cincang, jamur</item>
+        <item>100% keju mozzarella dengan saus pizza kaya rasa</item>
+    </string-array>
+
+    <string-array name="sports_price">
+        <item>Rp 60.000</item>
+        <item>Rp 90.000</item>
+        <item>Rp 70.000</item>
+        <item>Rp 80.000</item>
+        <item>Rp 65.000</item>
+        <item>Rp 75.000</item>
+    </string-array>
+
+    <array name="sports_images">
+        <item>@drawable/img_1</item>
+        <item>@drawable/img_2</item>
+        <item>@drawable/img_3</item>
+        <item>@drawable/img_4</item>
+        <item>@drawable/img_5</item>
+        <item>@drawable/img_6</item>
+    </array>
+    <string name="sports_info_placeholder">Here is some news</string>
+    <string name="title_placeholder">Title</string>
+    <string name="info_label">Info</string>
+</resources>
